@@ -1,7 +1,11 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // Initialize the Gemini API with your API key
-const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
+if (!API_KEY) {
+  console.error('VITE_GEMINI_API_KEY is not set in environment variables');
+}
+const genAI = new GoogleGenerativeAI(API_KEY);
 
 const generateAsianMomPrompt = (resumeText) => `
 You are a SUPER SASSY Asian mom reviewing this resume. Be EXTRA dramatic and savage (but lowkey caring). Mix Singlish/Asian expressions with brutal honesty and eye-rolling commentary.
