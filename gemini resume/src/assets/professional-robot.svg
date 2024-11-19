@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Robot Head -->
+  <rect x="50" y="40" width="100" height="120" rx="10" fill="#90CDF4" stroke="#2B6CB0" stroke-width="3"/>
+  
+  <!-- Antenna -->
+  <line x1="100" y1="20" x2="100" y2="40" stroke="#2B6CB0" stroke-width="3"/>
+  <circle cx="100" cy="15" r="5" fill="#FC8181"/>
+  
+  <!-- Eyes -->
+  <rect x="65" y="70" width="25" height="15" rx="2" fill="#EBF8FF"/>
+  <rect x="110" y="70" width="25" height="15" rx="2" fill="#EBF8FF"/>
+  <circle cx="77.5" cy="77.5" r="5" fill="#2B6CB0"/>
+  <circle cx="122.5" cy="77.5" r="5" fill="#2B6CB0"/>
+  
+  <!-- Mouth Screen -->
+  <rect x="70" y="100" width="60" height="20" rx="3" fill="#EBF8FF"/>
+  <line x1="75" y1="110" x2="125" y2="110" stroke="#2B6CB0" stroke-width="2"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="40" cy="80" r="5" fill="#FC8181"/>
+  <circle cx="160" cy="80" r="5" fill="#FC8181"/>
+  
+  <!-- Circuit Lines -->
+  <line x1="50" y1="140" x2="150" y2="140" stroke="#2B6CB0" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="50" y1="150" x2="150" y2="150" stroke="#2B6CB0" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Text -->
+  <text x="100" y="180" text-anchor="middle" font-family="Arial" font-size="12" fill="#2B6CB0">
+    "Processing..."
+  </text>
+</svg>
