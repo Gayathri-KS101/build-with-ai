@@ -1,8 +1,24 @@
-# React + Vite
+RESUME ANALYZER 📄
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Description 📝
 
-Currently, two official plugins are available:
+The resume analyzer is a tool that allows you to analyze your resume and get insights into your skills and experience. It is built using React, Vite, and Chakra UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# live link 🌐
+
+https://build-with-ai-eight.vercel.app/
+
+# tech stack 💻
+
+- React ⚛️
+- Vite ⚡
+- Chakra UI 🎨
+- Google Generative AI 🤖
+- PDF.js 📱
+- Google Cloud Platform ☁️
+
+# features ✨
+- Upload your resume 📝
+- Analyze your resume 📊
+- Get professional insights into your skills and experience 🚀
+- and alsohave fun with asian mom 😄 
